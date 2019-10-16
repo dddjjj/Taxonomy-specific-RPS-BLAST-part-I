@@ -1,0 +1,12 @@
+Codeathon (10-16-2019)
+Taxonomy-specific RPS-BLAST
+Goal: Identify the taxonomy informaiton from a giving a protein model (giving
+Program language: Python
+From Tax. ftp site get taxlineage.dmp
+API:
+Resource:
+IPGs(Idential Protein Group)
+
+CDD --> multiple sequence alignment (model, has outliers) --> domain GI --> IPG --> Tax ID --> Tax Lineage
+
+input: set of models, output: set of model with tax id
